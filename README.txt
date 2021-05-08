@@ -17,7 +17,8 @@ Current Programs stored:
   
   Suggestions:
   
-    Spend time finding a large data set with a ground truth avaiable, this was one of our major difficulties within the project. CAIDA is a great place to start looking for a large data set, however a ground truth is not available. If you can find a ground truth for this set however, it would be perfect for further research.
+    Spend time finding a large data set with a ground truth avaiable, this was one of our major difficulties within the project. CAIDA is a great place to start looking 
+    for a large data set, however a ground truth is not available. If you can find a ground truth for this set however, it would be perfect for further research.
     
     Research industry tools already being used in this field. This will save time during the project.
     
@@ -25,7 +26,9 @@ Current Programs stored:
     
     Once a Larger dataset is accquired look into testing it with the Scamper dealias tool. This will allow you to compare two or more methods easily to your results.
     
-    Once this is done improvements can be made to the current project such as a new feature (probability measurement), or focus on adding an attribute from another method compared that should mesh well with the already incorperated features. This new attribute should bring something from another method that one of the current features does not already provide.
+    Once this is done improvements can be made to the current project such as a new feature (probability measurement), or focus on adding an attribute from another 
+    method compared that should mesh well with the already incorperated features. This new attribute should bring something from another method that one of the current 
+    features does not already provide.
     
     Then use the previous dataset(s) to test your new method and measure its possible improvement over the previous.
 
