@@ -1,6 +1,8 @@
 // Traceroute.cpp
 // Nathaniel Morrow Feb, 2021 (Updated Aug 2021)
 // written for Windows machines, will require slight modifications for Unix-based systems.
+// This version may be out of date, the most up to date version should be available here: 
+// https://github.com/skillcap/tracert-recorder/blob/main/traceroute_recorder.cpp 
 
 #include <iostream>
 #include <fstream>
