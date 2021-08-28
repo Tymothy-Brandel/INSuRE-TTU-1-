@@ -36,12 +36,9 @@ int main(int argc, char *argv[])
         cout << "What IP(s) or URL(s) would you like to Tracert?\n"
              << "Enter x when finished: ";
         cin >> input;
-        if (input == "x" || input == "X")
-        {
-            mtx.unlock();
-            break;
-        }
         mtx.unlock();
+        if (input == "x" || input == "X")
+            break;
         threads.emplace_back(helper, input);
         mtx.lock();
         cout << "\n\"Tracert " << input << "\" has started on thread " << threads.size() + 1 << ".\n\n";
@@ -73,6 +70,7 @@ void helper(string input)
     mtx.lock();
     cout << "\"Tracert " << input << "\" has been successfully recorded into data" << threadNum + ".csv.\n\n";
     mtx.unlock();
+    return;
 }
 
 //takes a recorded tracert and converts to csv
